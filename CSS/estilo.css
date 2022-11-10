@@ -1,0 +1,471 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------------------*/
+/*--------Contenedor Padre caja-------*/
+/*------------------------------------*/
+
+
+
+.contenedor_padre{
+    /*border: 1px dashed red;*/
+    height: 100vh;
+    display: flex;
+    flex-direction:row ;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+/*-----------------------------------*/
+/*--------Contenedores Padres-------*/
+/*----------------------------------*/
+
+#contenedor_padre1{
+    background-image:url(/Imagen/fondo\ hombre\ araña.png) ;
+    background-repeat:no-repeat;
+}
+
+#contenedor_padre2{
+    background-image: url(/Imagen/fondo\ Iroman.jpg);
+    background-position: center;
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+
+#contenedor_padre3{
+    background-image: url(/Imagen/fondo\ capitana\ marvel.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#contenedor_padre4{
+    background-image: url(/Imagen/fondo\ capitan\ america.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#contenedor_padre5{
+    background-image: url(/Imagen/fondo\ hulk.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#contenedor_padre6{
+    background-image: url(/Imagen/fondo\ marvel1.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#contenedor_padre7{
+    background-image: url(/Imagen/marvel\ fondo.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+/*---------------------------------*/
+/*--------Contenedor Hijo----------*/
+/*---------------------------------*/
+
+
+.tarjeta{
+    /*border: 1px dashed rgb(163, 118, 19);*/
+    margin: 30px;
+    width: 600px;
+    height: 300px;
+    background-image:url(/Imagen/fondo\ espacial.jpg) ;
+    background-size:100%;
+    background-position:top;
+    /*background-color:rgba(0, 255, 255, 0.226);*/
+    border-radius: 10px;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 10px 10px cyan;
+    
+}
+
+/*-------------------------------------*/
+/*--------Imagen de Tarjeta Num 1-------*/
+/*--------------------------------------*/
+
+.tarjeta_cajas{
+    /*border: 1px dashed rgb(28, 202, 57);*/
+    width: 47%;
+    height: 80%;
+    border-radius: 8px;
+}
+
+#imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items:center;
+}
+
+.tarjeta_figure1{
+    border-radius:10px;
+    /*border: 1px dashed rgb(55, 0, 255);*/
+    width: 100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    background-image:url('/Imagen/hombre araña.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top;
+}
+
+#textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+.titulo{
+    color:cyan;
+    font-size: 25px;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.subtitulo{
+    color:cyan;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    
+}
+
+.parrafo{
+    color:cyan;
+    margin-bottom: 0;
+    font-size: 16px;
+    text-align: justify
+}
+
+
+/*----------------------------------------*/
+/*--------Imagen de Tarjeta Num 2---------*/
+/*----------------------------------------*/
+
+.tarjeta_cajas{
+    /*border: 1px dashed rgb(28, 202, 57);*/
+    width: 47%;
+    height: 80%;
+    border-radius: 8px;
+}
+
+#imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items:center;
+}
+
+.tarjeta_figure2{
+    border-radius:10px;
+    /*border: 1px dashed rgb(55, 0, 255);*/
+    width: 100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    background-image:url('/Imagen/Tony stark.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top;
+}
+
+#textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+.titulo{
+    color: blue;
+    font-size: 25px;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.subtitulo{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 18px;
+    
+}
+
+.parrafo{
+    color:blue;
+    margin-bottom: 0;
+    font-size: 16px;
+    text-align: justify
+}
+
+/*----------------------------------------*/
+/*--------Imagen de Tarjeta Num 3---------*/
+/*----------------------------------------*/
+
+.tarjeta_cajas{
+    /*border: 1px dashed rgb(28, 202, 57);*/
+    width: 47%;
+    height: 80%;
+    border-radius: 8px;
+}
+
+#imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items:center;
+}
+
+.tarjeta_figure3{
+    border-radius:10px;
+    /*border: 1px dashed rgb(55, 0, 255);*/
+    width: 100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    background-image:url('/Imagen/capitana\ marvel.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top;
+}
+
+#textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+.titulo{
+    color: blue;
+    font-size: 25px;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.subtitulo{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 18px;
+    
+}
+
+.parrafo{
+    color:blue;
+    margin-bottom: 0;
+    font-size: 16px;
+    text-align: justify
+}
+
+/*----------------------------------------*/
+/*--------Imagen de Tarjeta Num 4---------*/
+/*----------------------------------------*/
+
+.tarjeta_cajas{
+    /*border: 1px dashed rgb(28, 202, 57);*/
+    width: 47%;
+    height: 80%;
+    border-radius: 8px;
+    
+}
+
+#imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items:center;
+}
+
+.tarjeta_figure4{
+    border-radius:10px;
+    /*border: 1px dashed rgb(55, 0, 255);*/
+    width: 100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    background-image:url('/Imagen/capitan\ america1.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top;
+}
+
+#textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+.titulo{
+    color: blue;
+    font-size: 25px;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.subtitulo{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 18px;
+    
+}
+
+.parrafo{
+    color:blue;
+    margin-bottom: 0;
+    font-size: 16px;
+    text-align: justify
+}
+
+
+/*----------------------------------------*/
+/*--------Imagen de Tarjeta Num 5---------*/
+/*----------------------------------------*/
+
+
+.tarjeta_cajas{
+    /*border: 1px dashed rgb(28, 202, 57);*/
+    width: 47%;
+    height: 80%;
+    border-radius: 8px;
+}
+
+#imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items:center;
+}
+
+.tarjeta_figure5{
+    border-radius:10px;
+    /*border: 1px dashed rgb(55, 0, 255);*/
+    width: 100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    background-image:url('/Imagen/hulk.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top;
+}
+
+#textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+.titulo{
+    border-radius: 5px;
+    color:cyan;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+    box-shadow: 0px 0px 5px 5px cyan;
+    transition: 1s;
+    transition-delay: 0.1s;
+    transition-timing-function:linear; /*modificacion de los tiempos */
+}
+
+.titulo:hover{
+    color:rgb(247, 233, 115);
+    cursor: pointer;
+    font-size: 30px;
+    text-shadow: 2px 2px 1px rgb(255, 0, 0);
+    
+}
+
+
+.subtitulo{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 16px;
+    
+}
+
+.parrafo{
+    color:white;
+    font-family:Megrim, cursive;
+    margin-bottom: 0;
+    font-size: 15px;
+    text-align: justify
+}
+
+/*----------------------------------------*/
+/*--------Imagen de Tarjeta Num 7---------*/
+/*----------------------------------------*/
+
+
+.contenedor_padre1{
+    /*border: 1px dashed red;*/
+    height: 100vh;
+    display: flex;
+    flex-direction:row ;
+    justify-content:center;
+    align-items:stretch;
+}
+
+
+
+.tarjeta1{
+    /*border: 1px dashed rgb(163, 118, 19);*/
+    margin-top: 20px;
+    width: 400px;
+    height: 100px;
+    background-color:rgba(8, 8, 8, 0.281);
+    border-radius: 10px;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 10px 10px rgb(224, 30, 30);
+    
+}
+
+.titulo1{
+    text-align: center;
+    color:rgb(211, 212, 211);
+    font-size: 35px;
+    margin: 0;
+    font-family:fantasy;
+}
+
+.subtitulo1{
+    text-align: center;
+    color:rgb(212, 211, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 18px;
+    
+}
+
+.tarjeta_cajas1{
+    /*border: 1px dashed rgb(28, 202, 57);*/
+    width: 80%;
+    height: 80%;
+    border-radius: 8px;
+}
