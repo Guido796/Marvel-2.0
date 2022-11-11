@@ -36,35 +36,35 @@ body{
 }
 
 #contenedor_padre3{
-    background-image: url(/IMG/fondo-capitana-marvel.jpg);
+    background-image: url(../IMG/fondo-capitana-marvel.jpg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
 }
 
 #contenedor_padre4{
-    background-image: url(/IMG/fondo-capitan-america.jpg);
+    background-image: url(../IMG/fondo-capitan-america.jpg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
 }
 
 #contenedor_padre5{
-    background-image: url(/IMG/fondo-hulk.jpg);
+    background-image: url(../IMG/fondo-hulk.jpg);
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
 }
 
 #contenedor_padre6{
-    background-image: url(/IMG/fondo-marvel1.jpg);
+    background-image: url(../IMG/fondo-marvel1.jpg);
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
 }
 
 #contenedor_padre7{
-    background-image: url(/IMG/marvel-fondo.jpg);
+    background-image: url(../IMG/marvel-fondo.jpg);
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ body{
     margin: 30px;
     width: 600px;
     height: 300px;
-    background-image:url(/IMG/fondo-espacial.jpg) ;
+    background-image:url(../IMG/fondo-espacial.jpg) ;
     background-size:100%;
     background-position:top;
     /*background-color:rgba(0, 255, 255, 0.226);*/
@@ -118,7 +118,7 @@ body{
     height:100%;
     margin: 0;
     padding: 0;
-    background-image:url('/IMG/hombre-araña.jpg') ;
+    background-image:url(../IMG/hombre-araña.jpg) ;
     background-repeat: no-repeat;
     background-size:cover;
     background-position:top;
@@ -180,7 +180,7 @@ body{
     height:100%;
     margin: 0;
     padding: 0;
-    background-image:url('/IMG/Tony-stark.jpg') ;
+    background-image:url(../IMG/Tony-stark.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position:top;
@@ -240,7 +240,7 @@ body{
     height:100%;
     margin: 0;
     padding: 0;
-    background-image:url('/IMG/capitana-marvel.jpg') ;
+    background-image:url(../IMG/capitana-marvel.jpg) ;
     background-repeat: no-repeat;
     background-size:cover;
     background-position:top;
@@ -301,7 +301,7 @@ body{
     height:100%;
     margin: 0;
     padding: 0;
-    background-image:url('/IMG/capitan-america1.jpg') ;
+    background-image:url(../IMG/capitan-america1.jpg) ;
     background-repeat: no-repeat;
     background-size:cover;
     background-position:top;
@@ -363,7 +363,7 @@ body{
     height:100%;
     margin: 0;
     padding: 0;
-    background-image:url('/IMG/hulk.jpg') ;
+    background-image:url(../IMG/hulk.jpg) ;
     background-repeat: no-repeat;
     background-size:cover;
     background-position:top;
